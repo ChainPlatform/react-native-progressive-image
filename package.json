@@ -1,0 +1,26 @@
+{
+  "name": "@chainplatform/progressive-image",
+  "version": "0.1.0",
+  "description": "React Native Progressive Image for React Native and React Native Web.",
+  "main": "index.js",
+  "devDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "author": "Chain Platform <santran686@gmail.com> (https://chainplatform.net/)",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-native-web",
+    "@chainplatform/progressive-image",
+    "progressive-image",
+    "react-native-progressive-image"
+  ],
+  "homepage": "https://github.com/ChainPlatform/react-native-progressive-image",
+  "bugs": "https://github.com/ChainPlatform/react-native-progressive-image/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ChainPlatform/react-native-progressive-image.git"
+  }
+}
