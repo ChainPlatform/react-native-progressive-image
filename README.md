@@ -1,4 +1,5 @@
 # @chainplatform/progressive-image
+
 React Native Progressive Image for React Native and React Native Web.
 
 <p align="center">
@@ -9,10 +10,10 @@ React Native Progressive Image for React Native and React Native Web.
     <img src="https://img.shields.io/npm/v/@chainplatform/progressive-image?color=brightgreen&label=npm%20package" alt="Current npm package version." />
   </a>
   <a href="https://www.npmjs.com/package/@chainplatform/progressive-image">
-    <img src="https://img.shields.io/npm/dt/@chainplatform/progressive-image.svg"></img>
+    <img src="https://img.shields.io/npm/dt/@chainplatform/progressive-image.svg" />
   </a>
   <a href="https://www.npmjs.com/package/@chainplatform/progressive-image">
-    <img src="https://img.shields.io/badge/platform-android%20%7C%20ios%20%7C%20web-blue"></img>
+    <img src="https://img.shields.io/badge/platform-android%20%7C%20ios%20%7C%20web-blue" />
   </a>
   <a href="https://github.com/ChainPlatform/react-native-progressive-image/pulls">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
@@ -22,24 +23,31 @@ React Native Progressive Image for React Native and React Native Web.
   </a>
 </p>
 
-### Install
+---
+
+## 🚀 Installation
+
+```bash
+npm install @chainplatform/progressive-image
 ```
-npm install @chainplatform/progressive-image --save
-```
+
 or
-```
+
+```bash
 yarn add @chainplatform/progressive-image
 ```
 
-### Example
+---
+
+## 🧩 Usage Example
 
 ```js
 import React from 'react';
+import { View } from 'react-native';
 import {StyleSheet} from 'react-native';
 import ProgressiveImage, {Loading, ViewLoader} from '@chainplatform/progressive-image';
 
-class App extends React.Component {
-
+export default class App extends React.Component {
   render() {
     return (
       <View style={{flex:1}}>
@@ -60,3 +68,43 @@ class App extends React.Component {
   }
 }
 ```
+
+---
+
+## 🖼 Components
+
+### `ProgressiveImage`
+The core image component with animation.
+
+### `ViewLoader`
+A simple wrapper around `ProgressiveImage` for easy drop-in usage.
+
+---
+
+## 💡 Notes
+- Fully compatible with **React Native Web**.  
+- Animation uses `useNativeDriver` when possible for smoother performance.
+
+---
+
+## 🪪 License
+MIT © 2025 [Chain Platform](https://chainplatform.net)
+
+---
+
+## 💖 Support & Donate
+
+If you find this package helpful, consider supporting the development:
+
+| Cryptocurrency | Address |
+|----------------|----------|
+| **Bitcoin (BTC)** | `17grbSNSEcEybS1nHh4TGYVodBwT16cWtc` |
+![alt text](image-1.png)
+| **Ethereum (ETH)** | `0xa2fd119a619908d53928e5848b49bf1cc15689d4` |
+![alt text](image-2.png)
+| **Tron (TRX)** | `TYL8p2PLCLDfq3CgGBp58WdUvvg9zsJ8pd` |
+![alt text](image.png)
+| **DOGE (DOGE)** | `DDfKN2ys4frNaUkvPKcAdfL6SiVss5Bm19` |
+| **USDT (SOLANA)** | `cPUZsb7T9tMfiZFqXbWbRvrUktxgZQXQ2Ni1HiVXgFm` |
+
+Your contribution helps maintain open-source development under the Chain Platform ecosystem 🚀

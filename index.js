@@ -1,6 +1,6 @@
-import ProgressiveImage from "./ProgressiveImage";
-import Loading from "./Loading";
-import ViewLoader from "./ViewLoader";
+import ProgressiveImage from "./src/ProgressiveImage";
+import Loading from "./src/Loading";
+import ViewLoader from "./src/ViewLoader";
 
 export default ProgressiveImage;
 export { Loading, ViewLoader }
